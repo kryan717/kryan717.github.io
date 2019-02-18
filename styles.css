@@ -1,0 +1,114 @@
+body{
+  background-color: white;
+  text-align: center;
+  font-family: "Verdana";
+}
+#image{
+  text-align: center;
+
+
+}
+#test{
+  text-align: center;
+}
+#intro{
+  display: inline-block;
+  color: white;
+  font-weight: 300;
+  width: 180px;
+  height: 200px;
+  padding: 0px 100px 20px 100px;
+  border-style: groove;
+  border-width: 5px;
+  border-radius: 500px;
+  border-color: powderblue;
+  background-color: gray;
+}
+img{
+  width: 50%;
+}
+#links{
+  text-align: center;
+  color:powderblue;
+}
+a:link{
+  color: blue;
+  text-decoration: none;
+  background-color: powderblue;
+}
+a:visited{
+  color: purple;
+  text-decoration: none;
+}
+a:hover{
+  color:red;
+}
+button{
+  background-color: powderblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#roadmap{
+  display: inline-block;
+  text-align: left;
+  width: 750px;
+  height 1000px;
+  padding: 20px 50px 20px 50px;
+  margin: 50px;
+  border: 5px dotted powderblue;
+  border-radius: 80px;
+}
+.titles{
+  text-align: center;
+}
+
+#contactus {
+  border: 5px solid powderblue;
+  border-radius: 80px;
+  margin: 50px;
+  text-align: center;
+  width: 500px;
+  display: inline-block;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table, td, th {
+  border-bottom: 0.5px solid lightgray;
+  height: 50px;
+  padding-left: 15px;
+}
+tr:hover{background-color: lightgray;}
+td{
+  text-align: left;
+}
+th{
+  background-color: powderblue;
+}
+input[type=text],textarea {
+  border: 5px solid powderblue;
+  border-radius: 80px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+input[type=reset],input[type=submit]{
+  border: 1px solid lightgray;
+  border-radius: 80px;
+  width: 80px;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+input[type=reset]:hover, input[type=submit]:hover{
+  background-color: powderblue;
+}
+#form{
+  text-align: left;
+  margin: 50px;
+}
